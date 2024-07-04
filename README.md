@@ -19,7 +19,7 @@ Similar to the regular CPU miner you will have to set the amount of threads as w
 `rqiner -t <threads> -i <payout-id> -l <label> -n <ndatasets>`
 
 The -n parameter has to be a single value or a comma seperated list e.g.
-`-n 500, 300, 500`
+`-n 500 300 500`
 If you set 3 values for n they will be mapped to GPU 0, 1, 2 respectively. Ideal values for n are somewhere between 100-600 depending on your GPU, e.g. 4090: n=500, 4070ti: n=250. In order to find the optimal configuration you can run the GPU miner which will tell you the amount of blocks used in its optimal configuration after the auto-tuning is finished, which you can input as value for your -n parameter.
 
 ## Discord
